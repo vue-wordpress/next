@@ -2,7 +2,7 @@ const { VueLoaderPlugin } = require('vue-loader');
 
 module.exports = {
   mode: process.env.NODE_ENV,
-  entry: ['./src/vue-plugin.js'],
+  entry: ['./src/vue-wordpress.js'],
   output: {
     library: 'VuePlugin',
     libraryTarget: 'umd',
